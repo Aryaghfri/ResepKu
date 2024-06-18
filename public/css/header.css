@@ -1,0 +1,94 @@
+.header {
+  border-bottom: 1px solid rgba(216, 216, 216, 1);
+  background-color: #ffffff; /* Match footer background color */
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+  z-index: 1000; /* Pastikan z-index lebih tinggi dari slider */
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  font-weight: 700;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+.navigation-container-header {
+  display: flex;
+  max-width: 1344px;  
+  min-width: 1344px;
+  width: 100%;
+  padding:0px 220px 0px 220px;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .navigation-container-header {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.logo_header {
+   height: 140px; /* Match footer logo size
+  /* max-width: 100%; */
+} 
+
+
+.nav-container-header {
+  display: flex;
+  align-items: start;
+  gap: 60px;  
+}
+
+.nav-link {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000000; 
+}.nav-link:hover{
+  color: #FF4800;
+}
+  
+
+.logout-section {
+  display: flex;
+  font-family: Roboto, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+  transition: 0.3s;
+  white-space: nowrap;
+  text-align: center;
+}.logout-section:hover{
+  color: #FF4800;
+}
+
+@media (max-width: 991px) {
+  .logout-section {
+    padding-right: 20px;
+    white-space: initial;
+  }
+}
+
+.logout-img {
+  height: 24px;
+  object-fit: fill;
+  cursor: pointer;
+  color: #000000;
+  transition: 0.3s;
+}.logout-img:hover{
+  color: #FF4800;
+}
+
+

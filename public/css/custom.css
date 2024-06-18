@@ -1,0 +1,22 @@
+.resep-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+.resep-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.resep-box h3 {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}

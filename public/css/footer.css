@@ -1,0 +1,88 @@
+.footer-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 18px;
+  max-height: 140px;
+  padding: 0 60px 17px;
+  background-color: #ff4800;
+}
+
+@media (max-width: 991px) {
+  .footer-container {
+    padding: 0 20px;
+  }
+}
+
+.nav-container_footer {
+  display: flex;
+  max-width: 1344px;
+  min-width: 1344px;
+  align-items: start;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .nav-container_footer {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.logo_footer {
+  object-fit: auto;
+  object-position: center;
+  height: 140px;  
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.nav-item {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  margin-top: 34px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}.nav-item:hover{
+  color: #000000;
+}
+ 
+
+.follow-us-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 22px;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .social-icons {
+    padding-right: 20px;
+  }
+}
+
+.social-icon {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 45px;
+  fill: #fff;
+}
+
+.social-icon-larger {
+  aspect-ratio: 1.41;
+  object-fit: auto;
+  object-position: center;
+  width: 48px;
+  fill: #fff;
+  margin: auto 0;
+}
